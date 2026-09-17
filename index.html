@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Habits - Support & Privacy Policy</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --accent: #10b981;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0 30px;
+        }
+        .logo-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 72px;
+            height: 72px;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            border-radius: 18px;
+            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+            margin-bottom: 16px;
+            font-size: 32px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .tagline {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin: 30px 0;
+        }
+        .tab-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 10px 24px;
+            border-radius: 9999px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .tab-btn.active, .tab-btn:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: var(--text);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h3 {
+            font-size: 1.15rem;
+            margin: 18px 0 8px;
+            color: #cbd5e1;
+        }
+        p, li {
+            color: var(--text-muted);
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+        .badge-pill {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent);
+            padding: 4px 12px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .contact-box {
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 16px;
+        }
+        .contact-box a {
+            color: #818cf8;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #64748b;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-badge">🔄</div>
+            <h1>Loop Habits Tracker</h1>
+            <p class="tagline">Simple, Private & Open Habit Tracking for iOS</p>
+            <div class="nav-tabs">
+                <a href="#support" class="tab-btn active">Support & Help</a>
+                <a href="#privacy" class="tab-btn">Privacy Policy</a>
+            </div>
+        </header>
+
+        <!-- SUPPORT SECTION -->
+        <section id="support" class="card">
+            <h2>💬 Customer Support</h2>
+            <p>Welcome to Loop Habits Support. We are dedicated to providing you with a seamless and distraction-free habit tracking experience.</p>
+            
+            <h3>Frequently Asked Questions</h3>
+            <ul>
+                <li><strong>How does the Habit Strength score work?</strong> Unlike traditional trackers where a single missed day resets your score to zero, Loop uses an exponential formula. Every completed habit strengthens your score, while missed days gently decrease it, encouraging long-term discipline.</li>
+                <li><strong>Are my habits stored on a remote server?</strong> No. All your habits, streaks, and check-in logs are stored strictly on your local device.</li>
+                <li><strong>How do I backup or export my data?</strong> Go to <em>Settings > Export Data</em> inside the app. You can export everything to standard CSV or JSON files anytime.</li>
+                <li><strong>How do I set habit reminders?</strong> When creating or editing a habit, toggle on "Reminder" and pick your desired daily alert time.</li>
+            </ul>
+
+            <div class="contact-box">
+                <h3 style="margin-top: 0;">Need Further Assistance?</h3>
+                <p>Have questions, suggestions, or encountered a bug? Feel free to contact our support team:</p>
+                <p>📧 Email: <a href="mailto:ish.foery@ymail.com">ish.foery@ymail.com</a></p>
+                <p>We typically respond within 24–48 business hours.</p>
+            </div>
+        </section>
+
+        <!-- PRIVACY POLICY SECTION -->
+        <section id="privacy" class="card">
+            <span class="badge-pill">✓ 100% Privacy by Design</span>
+            <h2>🛡️ Privacy Policy & GDPR Compliance</h2>
+            <p><em>Last updated: September 17, 2026</em></p>
+            
+            <p>Loop Habits was built with privacy as a foundational principle. We believe your personal habits and daily routines are your personal business.</p>
+
+            <h3>1. Zero Data Collection</h3>
+            <p>Loop Habits does <strong>not</strong> collect, track, transmit, or sell any personal data, usage analytics, location data, or identifiers. We have no third-party tracking SDKs, analytics services, or advertising frameworks installed.</p>
+
+            <h3>2. Local On-Device Storage</h3>
+            <p>All data you create (including habit names, target frequencies, numerical logs, and completion history) is stored exclusively within your device's sandboxed local storage.</p>
+
+            <h3>3. Device Permissions</h3>
+            <ul>
+                <li><strong>Notifications:</strong> Used strictly to deliver local, on-device habit reminders scheduled by you. No notification data is sent across the internet.</li>
+            </ul>
+
+            <h3>4. GDPR & User Data Rights</h3>
+            <p>Under the General Data Protection Regulation (GDPR) and global privacy standards:</p>
+            <ul>
+                <li><strong>Right to Access & Portability:</strong> You can export all your habit history anytime via CSV/JSON export.</li>
+                <li><strong>Right to Rectification:</strong> You have full control to edit or update any past habit record.</li>
+                <li><strong>Right to Erasure:</strong> You can permanently delete individual habits or reset all application data with one tap in Settings.</li>
+            </ul>
+
+            <h3>5. Contact Us Regarding Privacy</h3>
+            <p>If you have any questions or concerns regarding our privacy practices, please contact us at <a href="mailto:ish.foery@ymail.com" style="color: #818cf8;">ish.foery@ymail.com</a>.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Loop Habits Tracker. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
